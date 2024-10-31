@@ -1,0 +1,48 @@
+* { font-family: Tahoma, Arial;}
+h1 { font-size: 24px; margin: 0px; padding: 4px; margin-bottom: 16px;}
+ul.thumbnail_list li { float: left; list-style-type: none; padding: 0px; margin: 4px;}
+ul.thumbnail_list li img {padding: 4px; border: 1px solid #ccc; cursor: pointer; }
+button { border: 1px solid #aaa; font-size: 12px; padding: 2px; cursor: pointer; margin-bottom: 2px;}
+#editor li { float: left; list-style-type: none; padding: 0px; margin: 1px; }
+ul { padding: 0px; margin: 0px; }
+#pxn8_canvas { clear: left; background-color: white; overflow: hidden;}
+
+#bubble_div { clear: left; }
+
+#hint ol li {float: none; list-style-type: decimal;}
+
+ul.horizontal {padding: 0px; margin: 0px; }
+ul.horizontal li { float: left; list-style-type: none; }
+ul.horizontal li img { z-index: 1; cursor: move}
+
+div.bp { position: absolute; overflow: auto;}
+div.bp textarea {
+		 position: absolute; 
+		 text-align: center; 
+		 font-size: 11px; 
+		 font-family: Arial; 
+		 padding: 0px; 
+		 margin: 0px;
+		 background-color: transparent;
+       overflow: none;
+}
+a.delete { display: none; position: absolute; top: 0px; left: 0px; border: none;}
+a.visible { display: block !important;}
+a.delete img {border: none; cursor: pointer;}
+
+textarea.bordered { border: 1px dashed #ccc;}
+
+
+#pxn8_timer, .warning { position: absolute; top: 50%; left: 0%;background-color: black;color: white;padding: 4px;text-align: center;opacity: 0.7;filter: alpha(opacity: 70);}
+div.bp img { cursor: move; opacity: 0.7; filter: alpha(opacity: 70);}
+
+#header { 
+    /* width: 632px; */
+    background: #e0e0e0 url(blw_corner.gif) bottom right no-repeat; 
+ }
+
+body { margin: 0px; padding: 0px;}
+
+#editor { margin: 8px;}
+
+
